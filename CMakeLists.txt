@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( colch)
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package( OpenCV REQUIRED )
+find_package(Threads REQUIRED )
+add_executable( colch colch.cpp )
+target_link_libraries( colch  ${OpenCV_LIBS} ${CMAKE_THREAD_LIBS_INIT})
