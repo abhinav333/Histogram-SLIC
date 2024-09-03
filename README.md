@@ -4,4 +4,4 @@
 - The quality of initial seeding can be controlled through user-defined parameters, such as histogram suppression window and maximum seeds per grid box.
 - Label enforcement of erroneous pixels is implemented on the superpixel segmented image by assigning a pixel with a particular cluster label based on the majority of surrounding labels.
 
-The code for the work can be found in file 'colch.cpp'.
+The code for the work is found in the file 'colch.cpp'.
